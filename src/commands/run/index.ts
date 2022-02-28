@@ -2,7 +2,8 @@ import { Command, Flags } from "@oclif/core";
 import boot from "../../utils/server";
 
 export default class Run extends Command {
-  static description = "Run Wrestly";
+  static description =
+    "Run Wrestly. Creates a server where you can see all requests made, great for debugging Webhooks or receiving OAuth payloads!";
 
   static flags = {
     port: Flags.string({

@@ -1,6 +1,6 @@
 {
   "name": "wrestly",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Wrestle that rest",
   "author": "Darren Royle @royletron",
   "bin": {
